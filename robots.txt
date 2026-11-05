@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://talas-opera.korkom.org/sitemap.xml
