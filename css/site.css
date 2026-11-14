@@ -4,6 +4,8 @@ img{max-width:100%;height:auto;display:block}a{color:inherit}
 .ico{width:1em;height:1em;vertical-align:-.12em;fill:currentColor}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid currentColor;outline-offset:2px}
 
+.op .recs{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px 28px;margin-top:10px}
+.op .rec{border-top:2px solid #b08a3e;padding-top:10px}.op .rec b{display:block;margin-bottom:8px}.op .rec audio{width:100%}
 .op{--velvet:#123b4a;--deep:#0b2530;--gold:#c99b45;--goldtx:#ecd29a;--lining:#f1e7d3;--soft:#bccbc8;background:var(--deep);color:var(--lining);font:300 16px/1.6 'Jost',sans-serif;min-height:100vh;display:flex;flex-direction:column}
 .op ::selection{background:var(--gold);color:var(--deep)}
 .op main{flex:1}
